@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgba(0, 0, 0, 0.94);
+}
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #8e44ad;
+}
+
+
+
+.icon {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.num {
+    color: white;
+    font-size: 27px;
+    word-spacing: 2px;
+    margin-bottom: 70px;
+}
+
+
+/*-------------------------------------- */
+/* SECTION-FOOTER */ 
+/*-------------------------------------- */
+
+
+footer {
+    
+    background-color: black;
+    padding: 30px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li: last-child,
+.social-links li: last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.5s
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+.ion-social-facebook,
+.ion-social-instagram,
+.ion-social-youtube {
+    transition: color 0.5s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-instagram:hover {
+    color: #fb3958;
+}
+
+.ion-social-youtube:hover {
+    color: #ff0000;
+}
+
+.love {
+    color: red;
+    font-size: 25px;
+}
+
+.me {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #888;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 85%;
+    margin-top: 30px;
+}

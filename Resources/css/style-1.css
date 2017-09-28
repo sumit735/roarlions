@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------------------- */
+/* reusable components */ 
+/*-------------------------------------- */
+html {
+    background-color: rgba(0, 0, 0, 0.94);
+}
+
+
+/*-------------------------------------- */
+/* HEADERS */ 
+/*-------------------------------------- */
+
+h1 {
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   font-size: 180%;
+   word-spacing: 2px;
+   text-align: center;
+   margin-bottom: 30px;
+   color: white;
+    margin-top: 20px;
+   border-bottom: 2px solid #8e44ad;
+}
+/*-------------------------------------- */
+/* PHOTOS */ 
+/*-------------------------------------- */
+
+.section-photos {
+    padding: 0;
+}
+
+.photos-showcase {
+    list-style:none;
+    width: 100%;
+    
+}
+
+.photos-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover,
+.photo img:active {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+
